@@ -1,0 +1,12 @@
+# package directories
+node_modules/
+package-lock.json
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
+
+# Dynamodb
+.dynamodb
