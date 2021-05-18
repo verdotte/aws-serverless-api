@@ -7,13 +7,13 @@ import {
 import * as uuid from "uuid";
 import middify from "../core/middify";
 import formatJSONResponse from "../core/formatJsonResponse";
-import postService from "../services";
-import CreatePost from "../dtos/createPost";
+import postService from "../database/services";
+import CreatePost from "../dtos/createPostDto";
 
 export const handler: Handler = middify(
   async (
     event: APIGatewayEvent & CreatePost,
-    ccontext: Context
+    context: Context
   ): Promise<APIGatewayProxyResult> => {
     const { title, description } = event.body;
 

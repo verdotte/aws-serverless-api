@@ -1,4 +1,4 @@
-import createDynamoDBClient from "./db";
+import createDynamoDBClient from "../db";
 import PostService from "./postService";
 
 const { POSTS_TABLE } = process.env;

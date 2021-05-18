@@ -6,8 +6,8 @@ import {
 } from "aws-lambda";
 import middify from "../core/middify";
 import formatJSONResponse from "../core/formatJsonResponse";
-import postService from "../services";
-import UpdatePost from "../dtos/updatePost";
+import postService from "../database/services";
+import UpdatePost from "../dtos/updatePostDto";
 
 export const handler: Handler = middify(
   async (

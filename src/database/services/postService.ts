@@ -1,5 +1,5 @@
 import { DocumentClient } from "aws-sdk/clients/dynamodb";
-import Post from "../models/Post";
+import Post from "../../models/Post";
 
 class PostService {
   constructor(
