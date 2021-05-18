@@ -1,7 +1,8 @@
-# AWS SERVERLESS API
+## AWS Serverless API
 
-## Project Structure
+### Project Structure
 
+```
 aws-serverless-api
 ├─ .git
 ├─ .gitignore
@@ -30,3 +31,5 @@ aws-serverless-api
 │ └─ Post.ts
 ├─ tsconfig.json
 └─ webpack.config.js
+
+```
